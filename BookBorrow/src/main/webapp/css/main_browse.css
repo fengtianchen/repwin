@@ -1,0 +1,308 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 微软雅黑;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+
+img {
+	border: 0px solid #000;
+}
+/*头部开始*/
+.top {
+	width: 1100px;
+	height: 115px;
+	margin: 0 auto;
+	margin-left: 180px;
+}
+
+.top .menu {
+	width: 1100px;
+	height: 115px;
+	position: relative;
+	float: left;
+}
+
+.top .menu a {
+	display: block;
+	font-size: 16px;
+	color: #666666;
+	float: left;
+	line-height: 115px;
+	padding: 0 23px;
+}
+
+.top .menu a:hover {
+	background-color: #eee;
+	border-bottom: 2px solid #FD4F00;
+}
+
+.top .menu a.phone {
+	border-bottom: 2px solid #FD4F00;
+}
+
+.top .menu a.index {
+	display: block;
+	width: 145px;
+	height: 78px;
+	background: url(../images/logo.png) 0 0 no-repeat;
+	margin-top: 37px;
+}
+
+.top .menu a.index:hover {
+	border-bottom: 2px solid #FD4F00;
+}
+
+.top .menu span {
+	width: 12px;
+	height: 10px;
+	position: absolute;
+	background: url(../images/hot.png) 0 0 no-repeat;
+	top: 40px;
+	left: 792px;
+}
+
+.top .login {
+	width: 50px;
+	height: 115px;
+	float: center;
+}
+
+.top .login a {
+	display: block;
+	line-height: 115px;
+	text-align: left;
+}
+
+.top .login #logouta {
+	position: absolute;
+	text-align: right;
+	top: 30px;
+}
+
+.top .login a:hover {
+	text-decoration: underline;
+}
+/*头部结束*/
+/*banner开始*/
+.banner {
+	width: 100%;
+	height: 350px;
+	background: url(../images/banner.jpg) 50% 50% no-repeat;
+}
+
+.banner .banner_center {
+	width: 1100px;
+	height: 350px;
+}
+/*banner结束*/
+/*主体开始*/
+.main {
+	width: 990px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.main h2 {
+	font-weight: 400;
+	color: #666666;
+	margin-bottom: 16px;
+}
+
+.main .goods {
+	width: 958px;
+	height: 617px;
+	border-top: 1px solid #E2E2E2;
+	border-left: 1px solid #E2E2E2;
+}
+
+.main .goods ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main .goods ul li {
+	width: 478px;
+	height: 308px;
+	border-right: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	float: left;
+	position: relative;
+}
+
+.main .goods ul li a img {
+	display: block;
+	position: absolute;
+	top: 22px;
+}
+
+.main .goods ul li a h3 {
+	font-size: 16px;
+	font-weight: 400;
+	position: absolute;
+	top: 40px;
+	left: 256px;
+	color: #666666;
+}
+
+.main .goods ul li a div {
+	position: absolute;
+	top: 77px;
+	left: 256px;
+	color: #666666;
+}
+
+.main .goods ul li a div p.price {
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+.main .goods ul li a div p.price em {
+	font-size: 18px;
+	font-family: Arial;
+	color: #FF8000;
+	list-style: none;
+}
+
+.main .goods ul li a span {
+	display: block;
+	width: 146px;
+	height: 35px;
+	background: #FF8600;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	top: 240px;
+	left: 256px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.main .goods ul li a span:hover {
+	background: #E77C06;
+}
+
+.main .more {
+	width: 870px;
+	height: 96px;
+}
+
+.main .more a {
+	display: block;
+	width: 96px;
+	height: 96px;
+	background: url(../images/more.png) 0 0 no-repeat;
+	margin: 32px 50% 25px;
+}
+
+.main .more a:hover {
+	background: url(../images/more.png) -150px 0 no-repeat;
+}
+/*主体结束*/
+/*底部开始*/
+.footer {
+	width: 100%;
+	height: 119px;
+	background: #EFEFEF;
+	border-top: 5px solid #D8D8D8;
+	margin-top: 20px;
+}
+
+.footer .team {
+	width: 990px;
+	height: 27px;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+
+.footer .team a {
+	color: #656565;
+	float: left;
+	display: block;
+	border-right: 1px solid #656565;
+	padding: 0px 10px;
+	line-height: 12px;
+}
+
+.footer .team a.last {
+	border-right: 0px;
+}
+
+.footer .team a:hover {
+	text-decoration: underline;
+}
+
+.footer .copyright {
+	width: 990px;
+	height: 27px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+	margin-top: 20%;
+	margin-left: 40%;
+}
+
+#baidu {
+	height: 33px;
+	float: right;
+}
+
+#baidu .input {
+	border: 1px solid #999999;
+	height: 100%;
+}
+
+#baidu .input .clear {
+	width: 30px;
+	height: 35px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	padding-right: 10px;
+	visibility: hidden;
+	opacity: 0.8;
+	color: gray;
+}
+
+#baidu input[type=text] {
+	height: 86%;
+	border: 0px;
+	width: 250px;
+}
+
+#baidu div {
+	float: left;
+}
+#baidu>button {
+	width: 100px;
+	height: 35px;
+	background: #3385ff;
+	color: #fff;
+	border: none;
+}
+
+#searchlabel {
+	color: #555;
+}
+/*底部结束*/
